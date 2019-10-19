@@ -1,3 +1,46 @@
-h1{
+h3{
     text-align: center;
+    font-style: italic;
 }
+
+.footnotesHome{
+    text-align: right;
+    padding-right: 5%;
+}
+.bg {
+  /* The image used */
+  background-image: url("/images/markus-spiske-vblGMzpFvmY-unsplash.jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+padding: 100px;
+}
+body, html {
+    height: 100%;
+    margin: 0;
+    color:white;
+    font-size: 18px;
+    text-shadow:
+		-1px -1px 0 #000,
+		1px -1px 0 #000,
+		-1px 1px 0 #000,
+		1px 1px 0 #000;
+
+}
+
+#homelogo{
+    height:40%;
+    width:30%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+a{
+    color: #83d1f2;
+}
+
