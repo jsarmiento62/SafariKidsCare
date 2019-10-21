@@ -1,4 +1,8 @@
-h3{
+h1{
+    text-align: center;
+    padding-top: 50px;
+}
+h2,h3{
     text-align: center;
     font-style: italic;
 }
@@ -6,6 +10,9 @@ h3{
 .footnotesHome{
     text-align: right;
     padding-right: 5%;
+}
+hr{
+    border-width: thick;
 }
 .bg {
   /* The image used */
@@ -20,7 +27,7 @@ h3{
   background-size: cover;
 padding: 100px;
 }
-body, html {
+.homeText {
     height: 100%;
     margin: 0;
     color:white;
@@ -40,7 +47,21 @@ body, html {
     margin-left: auto;
     margin-right: auto;
 }
-a{
+.homeNavLinks{
     color: #83d1f2;
 }
-
+#aboutPicture{
+    height: 50%;
+    width: 30%; 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.footerAddress{
+    text-align: center;
+}
+.navBarlogo{
+    height: 10%;
+    width: 10%;
+    padding: none;
+}
