@@ -1,3 +1,6 @@
+body{
+
+}
 h1{
     text-align: center;
     padding-top: 50px;
@@ -49,6 +52,7 @@ padding: 100px;
 }
 .homeNavLinks{
     color: #83d1f2;
+    font-size: 20px;
 }
 #aboutPicture{
     height: 50%;
@@ -60,8 +64,6 @@ padding: 100px;
 .footerAddress{
     text-align: center;
 }
-.navBarlogo{
-    height: 10%;
-    width: 10%;
-    padding: none;
+#spartanLogo{
+    padding-left: 10px;
 }
