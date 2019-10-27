@@ -6,38 +6,46 @@
     <link rel="stylesheet"  type="text/css" href="/safariKidsCareStyle.css">
 
 </head>
-<body>
-   
-    <div class="bg">
-        <img id="homelogo" src="images/SafariKidsLogo.png">    
-         <div class = container>
-            <ul class="nav justify-content-center  ">
-                  <li class="nav-item">
-                    <a class="nav-link active homeNavLinks"  href="/index.html">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link homeNavLinks" href="/About.html">About</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link homeNavLinks" href="/Program.html">Program</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link homeNavLinks" href="/tuition.html">Tuition</a>
-                </li>
-                  <li class="nav-item ">
-                    <a class="nav-link homeNavLinks" href="/RequestInfo.html" >Request Information</a>
-                  </li>
+<body id="landingPage">
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+          <a class="navbar-brand" href="/index.html"> <img src="/images/SafariKidsLogo.png" width="110" height="80" alt=""></a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" href="/index.html">Home<span class="sr-only">(current)</span></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/About.html">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Program.html">Program</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/Schedule.html">Schedule</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/RequestInfo.html">Request Information</a>
+              </li>
             </ul>
-        </div>
-
+          </div>
+    </nav>
+    
+    <div class="container">
+        <img src="images/SafariKidsLogo.png" id="homelogo">
         <div class = "container homeText">
-            <h3>"Where Wild Adventures and Creativity Come into Play"</h3>
+            <div class="row">
+                    <div class="col-12">
+                <h3>"Where Wild Adventures and Creativity Come into Play"</h3>
 
-            <p>
-            Safari Kids Care provides children with a comfortable and nurturing learning environment that feels just like home while their parents work or attend school. At Safari Kids Care, we believe that children learn best through play. We understand that a child’s play time is essential to his/her cognitive, physical, social, and emotional development. We provide children with multiple opportunities throughout the day for both self-directed and structured play activities to help them enhance their confidence, learn how to share, learn to negotiate and resolve conflicts, and make sense about the world that surrounds them. Through play, we encourage and support pre-literacy skills in a fun manner.
-            </p>
-            
-                   
+                <p>
+                Safari Kids Care provides children with a comfortable and nurturing learning environment that feels just like home while their parents work or attend school. At Safari Kids Care, we believe that children learn best through play. We understand that a child’s play time is essential to his/her cognitive, physical, social, and emotional development. We provide children with multiple opportunities throughout the day for both self-directed and structured play activities to help them enhance their confidence, learn how to share, learn to negotiate and resolve conflicts, and make sense about the world that surrounds them. Through play, we encourage and support pre-literacy skills in a fun manner.
+                </p>
+                </div>
+            </div>       
         </div>
 
         <footer class="homeText">  
@@ -60,6 +68,6 @@
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-
+    
 </body>
 </html>

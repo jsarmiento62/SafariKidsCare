@@ -1,4 +1,8 @@
-body{
+#landingPage{
+    background: url(images/markus-spiske-vblGMzpFvmY-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+      background-repeat: no-repeat;
 
 }
 h1{
@@ -26,13 +30,11 @@ hr{
 
   /* Center and scale the image nicely */
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
 padding: 100px;
 }
 .homeText {
-    height: 100%;
-    margin: 0;
+    padding: 10px;
     color:white;
     font-size: 18px;
     text-shadow:
@@ -44,8 +46,8 @@ padding: 100px;
 }
 
 #homelogo{
-    height:40%;
-    width:30%;
+    height:70%;
+    width:50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -60,10 +62,14 @@ padding: 100px;
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 25px;
 }
 .footerAddress{
     text-align: center;
 }
 #spartanLogo{
     padding-left: 10px;
+}
+.scheduleFormat{
+    line-height: 250%;
 }
