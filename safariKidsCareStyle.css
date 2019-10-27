@@ -23,7 +23,7 @@ h2,h3{
 .footnotesHome{
     text-align: right;
     padding-right: 5%;
-    font-size: 80%;
+    font-size: 85%;
 }
 hr{
     border-width: thick;
@@ -58,7 +58,7 @@ hr{
 }
 .footerAddress{
     text-align: center;
-    font-size: 80%;
+    font-size: 85%;
 }
 #spartanLogo{
     padding-left: 10px;
@@ -69,4 +69,16 @@ hr{
 .container{
     padding-left: 30px;
     padding-right: 30px;
+}
+@media screen and (min-width : 1204px)
+{
+ .footerAddress{
+    text-align: center;
+    font-size: 115%;
+}
+    .footnotesHome{
+    text-align: right;
+    padding-right: 5%;
+    font-size: 115%;
+}
 }
