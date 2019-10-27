@@ -15,6 +15,7 @@ h1{
 h2,h3{
     text-align: center;
     font-style: italic;
+    font-size: 2em;
 }
 
 .footnotesHome{
@@ -24,21 +25,10 @@ h2,h3{
 hr{
     border-width: thick;
 }
-.bg {
-  /* The image used */
-  background-image: url("/images/markus-spiske-vblGMzpFvmY-unsplash.jpg");
 
-  /* Full height */
-  height: 100%; 
-
-  /* Center and scale the image nicely */
-  background-position: center;
-  background-size: cover;
-padding: 100px;
-}
 .homeText {
     color:white;
-    font-size: 18px;
+    font-size: 1.2em;
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -54,10 +44,7 @@ padding: 100px;
     margin-left: auto;
     margin-right: auto;
 }
-.homeNavLinks{
-    color: #83d1f2;
-    font-size: 20px;
-}
+
 #aboutPicture{
     height: 50%;
     width: 30%; 
