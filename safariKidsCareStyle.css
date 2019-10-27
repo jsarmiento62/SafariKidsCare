@@ -1,5 +1,8 @@
 html{
-    height: 120%;
+    height: 150%;
+}
+body{
+   
 }
 #landingPage{
     background: url(images/markus-spiske-vblGMzpFvmY-unsplash.jpg);
@@ -20,6 +23,7 @@ h2,h3{
 .footnotesHome{
     text-align: right;
     padding-right: 5%;
+    font-size: 80%;
 }
 hr{
     border-width: thick;
@@ -27,7 +31,7 @@ hr{
 
 .homeText {
     color:white;
-    font-size: 95%;
+    font-size: 20px;
     text-shadow:
 		-1px -1px 0 #000,
 		1px -1px 0 #000,
@@ -45,8 +49,8 @@ hr{
 }
 
 #aboutPicture{
-    height: 70%;
-    width: 50%; 
+   height: 80%;
+    width:45%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -54,6 +58,7 @@ hr{
 }
 .footerAddress{
     text-align: center;
+    font-size: 80%;
 }
 #spartanLogo{
     padding-left: 10px;
@@ -61,4 +66,7 @@ hr{
 .scheduleFormat{
     line-height: 250%;
 }
-
+.container{
+    padding-left: 30px;
+    padding-right: 30px;
+}
