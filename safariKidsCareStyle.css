@@ -58,7 +58,9 @@ hr{
     width:350px;
     display: block;
     margin-left: auto;
-    margin-right: auto;
+    margin-right: auto;    
+    padding: 25px;
+
 }
 .footerAddress{
     text-align: center;
@@ -105,4 +107,12 @@ hr{
     margin-right: auto;
     padding: 25px;
 }
+    #homelogo{
+    height:80%;
+    width:80%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 }
