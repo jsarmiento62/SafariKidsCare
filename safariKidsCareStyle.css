@@ -54,12 +54,11 @@ hr{
 }
 
 #aboutPicture{
-   height: 600px;
-    width:400px;
+   height: 450px;
+    width:350px;
     display: block;
     margin-left: auto;
     margin-right: auto;
-    padding: 25px;
 }
 .footerAddress{
     text-align: center;
@@ -85,5 +84,25 @@ hr{
     text-align: right;
     padding-right: 5%;
     font-size: 80%;
+}
+    #aboutPicture{
+   height: 80%;
+    width:40%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
+}
+}
+
+@media screen and (max-width : 375px)
+{
+    #aboutPicture{
+   height: 600px%;
+    width:300px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 25px;
 }
 }
