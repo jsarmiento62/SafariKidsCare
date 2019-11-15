@@ -46,8 +46,8 @@ hr{
 }
 
 #homelogo{
-    height:70%;
-    width:50%;
+    height:90%;
+    width:90%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -87,7 +87,13 @@ hr{
     padding-right: 5%;
     font-size: 80%;
 }
-   
+   #homelogo{
+    height:50%;
+    width:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
 }
 
 @media screen and (max-width : 375px)
