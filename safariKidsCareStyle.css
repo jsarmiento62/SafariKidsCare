@@ -2,9 +2,9 @@ html{
     height: 100%;
 }
 body{
+    background: url(images/triangle-mosaic.png);
     background-size: cover;
     background-position: center;
-    background-repeat: no-repeat;
 
 
 }
