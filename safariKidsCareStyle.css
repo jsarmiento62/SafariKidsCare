@@ -87,20 +87,13 @@ hr{
     padding-right: 5%;
     font-size: 80%;
 }
-    #aboutPicture{
-   height: 550px;
-    width:400px;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    padding: 25px;
-}
+   
 }
 
 @media screen and (max-width : 375px)
 {
     #aboutPicture{
-   height: 600px%;
+   height: 600px;
     width:300px;
     display: block;
     margin-left: auto;
@@ -108,8 +101,8 @@ hr{
     padding: 25px;
 }
     #homelogo{
-    height:80%;
-    width:80%;
+    height:100%;
+    width:100%;
     display: block;
     margin-left: auto;
     margin-right: auto;
