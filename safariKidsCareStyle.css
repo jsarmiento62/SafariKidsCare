@@ -8,12 +8,12 @@ body{
 
 
 }
-#landingPage{
+/*#landingPage{
     background: url(images/LandingPageColoredPencils.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-
+*/
 }
 h1,h2{
     text-align: center;
@@ -34,7 +34,8 @@ hr{
 }
 
 .homeText {
-    color:white;
+    color:#83d1f2;
+    text-align: center;
     padding-top: 20px;
     font-size: 20px;
     text-shadow:
