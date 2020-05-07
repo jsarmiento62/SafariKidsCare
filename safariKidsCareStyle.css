@@ -5,16 +5,13 @@ body{
     background: url(images/triangle-mosaic.png);
     background-size: cover;
     background-position: center;
-
-
 }
 /*#landingPage{
     background: url(images/LandingPageColoredPencils.jpg);
     background-size: cover;
     background-position: right;
     background-repeat: no-repeat;
-*/
-}
+}*/
 h1,h2{
     text-align: center;
     padding-top: 50px;
